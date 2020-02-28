@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{font-family:Calibri;}
+        fieldset        
+        {width:350px;
+        margin: 0 auto;                  
+        } 
+
+        table td {
+        padding:5px;
+        color:rgb(110,0,55);       
+        }
+
+        [type=radio]{
+             color: rgb(110,0,55);
+        }
+        input[type=text],[type=password],[type=email],[type=date],textarea {
+
+            width:180px;
+           border: 1px solid rgb(110,0,55);
+           color:rgb(110,0,55);
+           padding:5px;
+           resize:none;
+
+        }
+        select{
+            width:192px;
+            padding:5px;
+            border: 1px solid rgb(110,0,55);
+            color:rgb(110,0,55);
+        }
+       
+     
+
+       input[type=submit]
+       {
+           border:none;
+           width:180px;
+           height:35px;
+           color:rgb(110,0,55);
+       }
+        input[type=submit]:hover
+        {
+            background-color:rgb(110,0,55);
+            color:white;     
+}
+
+
+        
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><img src="https://firebasestorage.googleapis.com/v0/b/testproject-4df2d.appspot.com/o/IBA-Karachi-Logo.png?alt=media&token=07f3a279-d3c1-4bb5-87b0-00c3fb15af61" width="70" height="70"/></legend>
+    <form>
+        <table>
+            <tr>
+                <td>Enter your Name</td>
+                <td><input type="text" required="required"></td>
+            </tr>
+
+             <tr>
+                <td>Enter Email</td>
+                <td><input type="email" required="required"></td>
+            </tr>
+
+              <tr>
+                <td>Enter Password</td>
+                <td><input type="password" required="required"></td>
+            </tr>
+
+              <tr>
+                <td>Enter your D.O.B</td>
+                <td><input type="date" required="required"></td>
+            </tr>
+
+              <tr>
+                <td>Select Gender</td>
+                <td><input type="radio" name="gender" value="male" required="required">Male
+                    <input type="radio" name="gender" value="female" required="required">Female
+                </td>
+            </tr>
+             <tr>
+                <td>Select Country</td>
+                <td>
+                    <select required="required" >
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="China">China</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    </select>
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td>Comments</td>
+                <td>
+                    <textarea cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Sign up">
+                </td>
+            </tr>
+        </table>
+        
+        
+    </form>
+    </fieldset>
+</body>
+</html>
